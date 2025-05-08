@@ -79,8 +79,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 50px 100px 50px 100px;
     gap: 50px;
 }
 
@@ -88,5 +87,5 @@ img {
     display: flex;
     flex-direction: column;
     gap: 15px;
-
+    max-width: 500px;
 }
