@@ -1,15 +1,20 @@
+.roboto-<roboot> {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
 body {
-    font: roboto;
+    font-family: roboto;
 }
-
-.header {
-    background-color: #1f2937;
-}
-
 a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+    font-weight: 100;
 }
 
 ul {
@@ -20,4 +25,18 @@ ul {
     color: #f9faf8;
     font-size: 24px;
     font-weight: 900;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+}
+
+.right-links {
+    display: flex;
+    gap: 30px;
 }
