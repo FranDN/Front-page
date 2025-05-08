@@ -41,6 +41,16 @@ ul {
     gap: 30px;
 }
 
+.awesome {
+    background-color: #1f2937;    
+    color: #f9faf8;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
 img {
     width: 600px;
     height: 400px;
