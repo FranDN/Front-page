@@ -69,6 +69,8 @@ button {
 img {
     max-width: 100%;
     height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
 .awesome {
@@ -80,3 +82,9 @@ img {
     gap: 50px;
 }
 
+.left-awesome {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
