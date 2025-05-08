@@ -70,3 +70,9 @@ img {
     width: 600px;
     height: 400px;
 }
+
+.awesome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
