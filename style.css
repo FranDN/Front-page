@@ -124,4 +124,8 @@ button {
     width: 100%;
 }
 
-.penultimate {}
+.penultimate {
+    background-color: #e5e7eb;
+    display: flex;
+    
+}
