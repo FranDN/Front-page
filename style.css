@@ -127,10 +127,10 @@ button {
 .penultimate {
     background-color: #e5e7eb;
     display: flex;
-    justify-content: center;
+    text-align: center;
     flex-direction: column;
     align-content: center;
-    padding: 100px 300px;
+    padding: 100px 200px;
     gap: 18px;
     flex-shrink: 1;
 }
