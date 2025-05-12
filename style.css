@@ -127,5 +127,16 @@ button {
 .penultimate {
     background-color: #e5e7eb;
     display: flex;
-    
+    justify-content: center;
+}
+
+.thor {
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+}
+
+.the-sig {
+    font-weight: 600;
+    font-size: 24px;
 }
