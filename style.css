@@ -154,12 +154,17 @@ button {
     background-color: #3882f6;
     color: #f9faf8;
     margin: 100px 200px;
-    padding: 20px 60px;
+    padding: 40px 80px;
     border-radius: 10px;
     display: flex;
     gap: 6px;
+    justify-content: space-between;
 }
 
+.the_text {
+    display: flex;
+    flex-direction: column;
+}
 .call {
     font-weight: 600;
     font-size: 24px;
@@ -167,8 +172,4 @@ button {
 
 .sign {
     font-weight: 100;
-}
-
-button, .last {
-    display: flex;
 }
