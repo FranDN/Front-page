@@ -160,6 +160,8 @@ button {
     display: flex;
     gap: 6px;
     justify-content: space-between;
+    flex-wrap: wrap;
+    
 }
 
 .the_text {
