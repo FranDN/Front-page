@@ -67,6 +67,7 @@ button {
     font-size: 16px;
     border-radius: 10px;
     width: fit-content;
+    flex-shrink: 0;
 }
 
 .the-duck-gang {
